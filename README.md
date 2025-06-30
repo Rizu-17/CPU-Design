@@ -22,3 +22,15 @@ Format: `[2:mode] [1:op] [4:address] [10:unused]`
   (Mode:10, Op:0, Address:1100)  
 
 ## Project Structure
+CPU_Design/
+├── ALU.circ # Arithmetic Logic Unit
+├── Control_Unit.circ # Instruction decoder
+├── Registers.circ # Register file
+└── CPU_Main.circ # Top-level design
+
+
+## How to Simulate
+1. Open files in [Logisim](http://www.cburch.com/logisim/)
+2. Load test programs using:
+   ```logisim
+   Menu: Project → Load Test Program → Select .hex
