@@ -1,0 +1,10 @@
+Total ISA 17 bits
+
+Register Mode: 2bits for mode+1 bit for op+3 bits for reg1+3bits for reg2+8bits unused 
+Sub: 00001100100000000      SHL: 00100100100000000 
+
+Immediate Mode: 2bits for mode+1 bit for op+3 bits for reg1+5 bits for value+6bits unused 
+Sub: 01001101100000000      SHL: 01101101100000000 
+
+Branching Mode: 2bits for mode+1 bit for op(for JGE 0)+4 bits for address+10 bits unused 
+JGE: 10001100000000000      
